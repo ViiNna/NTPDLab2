@@ -1,0 +1,23 @@
+artifact_path: file:C:/Users/wdrzy/PycharmProjects/NTPDLab2/mlruns/0/models/m-bed4a14c930d4876abce42b54946dd66/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.14.0
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.9.0
+    skops_trusted_types: null
+mlflow_version: 3.13.0
+model_id: m-bed4a14c930d4876abce42b54946dd66
+model_size_bytes: 145555
+model_uuid: m-bed4a14c930d4876abce42b54946dd66
+prompts: null
+run_id: 425af82426b24f98a783c3b92bd68fd7
+utc_time_created: '2026-06-06 20:13:25.094144'
